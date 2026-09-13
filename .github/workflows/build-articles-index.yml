@@ -1,0 +1,45 @@
+name: Build Articles Index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/articles/*.md"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-articles-index
+  cancel-in-progress: true
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install js-yaml
+        run: npm install js-yaml --no-save
+
+      - name: Build content/articles/index.json
+        run: node scripts/build-articles-index.js
+
+      - name: Commit updated index (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/articles/index.json
+          if git diff --staged --quiet; then
+            echo "No changes to index.json"
+          else
+            git commit -m "chore: rebuild articles index"
+            git push
+          fi
