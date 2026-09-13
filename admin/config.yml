@@ -1,0 +1,36 @@
+backend:
+  name: github
+  repo: anashnidi/anashnidi.github.io
+  branch: main
+  base_url: https://cms-auth.anashnidi.workers.dev
+  auth_endpoint: auth
+
+publish_mode: simple
+media_folder: "content/articles/images"
+public_folder: "/content/articles/images"
+
+collections:
+  - name: "articles"
+    label: "Articles"
+    label_singular: "Article"
+    folder: "content/articles"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    format: "frontmatter"
+    extension: "md"
+    identifier_field: title_en
+    summary: "{{title_en}} — {{date}}"
+    sortable_fields: ["date", "title_en", "featured"]
+    fields:
+      - { label: "Title (English)", name: "title_en", widget: "string" }
+      - { label: "Title (Arabic)", name: "title_ar", widget: "string" }
+      - { label: "Excerpt (English)", name: "excerpt_en", widget: "text" }
+      - { label: "Excerpt (Arabic)", name: "excerpt_ar", widget: "text" }
+      - { label: "Tag / Category", name: "tag", widget: "string", hint: "e.g. Strategy · ROAS · CRM" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+      - { label: "Featured (shows as the big card at the top)", name: "featured", widget: "boolean", default: false }
+      - { label: "LinkedIn post link (optional, once published)", name: "external_linkedin", widget: "string", required: false }
+      - { label: "Substack post link (optional, once published)", name: "external_substack", widget: "string", required: false }
+      - { label: "Body (English)", name: "body_en", widget: "markdown" }
+      - { label: "Body (Arabic)", name: "body_ar", widget: "markdown" }
