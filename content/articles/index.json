@@ -84,6 +84,18 @@
     "external_substack": ""
   },
   {
+    "slug": "roas-1-5x-to-10-5x-case-study",
+    "title_en": "How I Took ROAS from 1.5× to 10.5× Without Increasing the Budget",
+    "title_ar": "الانتقال بالـ ROAS من 1.5× إلى 10.5× في SACO لم يأتِ من ميزانية أكبر، أو وكالة جديدة، أو تحديث خوارزمية في المنصات الإعلانية. جاء من إعادة بناء طريقة قياسنا للأداء من الأساس — وإعادة توزيع نفس الإنفاق الإعلاني تمامًا بناءً على ما كشفه هذا القياس الجديد فعليًا.",
+    "excerpt_en": "The exact architecture that transformed paid media at SACO — LTV attribution, lookalike audiences, P&L accountability.",
+    "excerpt_ar": "البنية التي حوّلت الإعلانات المدفوعة في SACO — إسناد القيمة الدائمة، الجماهير المشابهة، ومساءلة الربح والخسارة.",
+    "tag": "Performance Media · Case Study",
+    "date": "2024-08-15",
+    "featured": false,
+    "external_linkedin": "",
+    "external_substack": ""
+  },
+  {
     "slug": "whatsapp-crm-architecture",
     "title_en": "WhatsApp CRM in Saudi Arabia — The Right Architecture",
     "title_ar": "نسبة فتح تتراوح بين 80–90%. هذا ما يحققه WhatsApp Business API في السعودية عندما يُبنى كبنية تحتية حقيقية لإدارة علاقات العملاء — لا كإضافة لاحقة. معظم العلامات التجارية في هذا السوق تجلس على هذه الفرصة وتستخدمها كأداة فاخرة لتأكيد الطلبات فقط. هذه هي البنية التي تلتقط القيمة الفعلية.",
