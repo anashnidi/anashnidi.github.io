@@ -1,5 +1,29 @@
 [
   {
+    "slug": "ecommerce-infrastructure-vision-2030",
+    "title_en": "E-Commerce as Infrastructure: What Vision 2030 Means for Digital Retail",
+    "title_ar": "يُعاد بناء البنية التحتية للخدمات اللوجستية، والمدفوعات، والتوصيل بالميل الأخير في السعودية من الصفر ضمن رؤية 2030. العلامات التجارية التي تبني لهذه البنية التحتية الجديدة الآن ستتصدر السوق بحلول 2030 — ومعظمها لا يولي هذا الاهتمام الكافي بعد.",
+    "excerpt_en": "Saudi logistics, payments, and last-mile infrastructure are being rebuilt from scratch. Brands that build for this new infrastructure now will dominate in 2030. Three bets I would make today.",
+    "excerpt_ar": "يُعاد بناء البنية اللوجستية والمدفوعات والتوصيل في السعودية من الصفر. العلامات التي تبني لهذه البنية التحتية الآن ستتصدر بحلول 2030.",
+    "tag": "Vision 2030",
+    "date": "2024-12-15",
+    "featured": false,
+    "external_linkedin": "",
+    "external_substack": ""
+  },
+  {
+    "slug": "building-ecommerce-team-10-person",
+    "title_en": "How I Built a 10-Person E-Commerce Team to SAR 12M+ Annual Budget",
+    "title_ar": "أكبر خطأ يقع فيه قادة التجارية الإلكترونية عند توظيف المتخصصين مبكرًا جدًا. بعد بناء أقسام التجارة الإلكترونية في eXtra وSACO وBlooming Wear، هذا هو تسلسل التوظيف الذي ينجح فعليًا.",
+    "excerpt_en": "The biggest mistake senior e-commerce leaders make is hiring specialists too early. After building teams at eXtra, SACO, and Blooming Wear, here is the exact hiring sequence that works.",
+    "excerpt_ar": "أكبر خطأ يقع فيه قادة التجارة الإلكترونية هو توظيف المتخصصين مبكرًا جدًا. بعد بناء فرق في eXtra وSACO وBloomingWear، هذا هو تسلسل التوظيف الذي ينجح فعليث.",
+    "tag": "Leadership",
+    "date": "2024-11-15",
+    "featured": false,
+    "external_linkedin": "",
+    "external_substack": ""
+  },
+  {
     "slug": "bloomingwear-clevertap-implementation",
     "title_en": "Inside Blooming Wear's CleverTap Implementation: What We Built and Why",
     "title_ar": "دراسة الحالة الرسمية من CleverTap عن Blooming Wear تُظهر النتائج — زيادة تحويلات 25%، انخفاض معدل التسرب 15%، زيادة الشراء المتكرر 10%، وارتفاع متوسط قيمة الطلب 12%. لكنها لا تُظهر التطبيق الفعلي الذي استمر 6 أشهر وراء هذه الأرقام.",
